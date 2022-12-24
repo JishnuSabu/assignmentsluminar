@@ -20,7 +20,7 @@ class _ContactBookState extends State {
         onPressed: () {
           // Add your onPressed code here!
         },
-       child: Icon(Icons.add),
+       child: const Icon(Icons.add),
         backgroundColor: Colors.blueAccent,
       ),
       body: ListView(
@@ -54,7 +54,7 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("J",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:const Center(child: const Text("J",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
                     color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
@@ -80,7 +80,7 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:const Center(child: Text("A",style: const TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
                     color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
@@ -106,7 +106,7 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:const Center(child: Text("A",style: const TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
                     color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
@@ -132,7 +132,7 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("V",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:const Center(child: Text("V",style: const TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
                     color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
@@ -158,7 +158,7 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:const Center(child: Text("A",style: const TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
                     color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
@@ -187,7 +187,7 @@ class _ContactBookState extends State {
                 Container(
                     height: 45,
                     width: 45,
-                    child:Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                    child:const Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
                     decoration: BoxDecoration(
                         color: Colors.blue,
                         borderRadius:BorderRadius.circular(40),),
@@ -217,7 +217,7 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:const Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
                     color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
@@ -246,7 +246,7 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("C",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:const Center(child: Text("C",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
                     color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
@@ -275,7 +275,7 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("F",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:const Center(child: Text("F",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
                     color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
@@ -304,7 +304,7 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("J",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:const Center(child: Text("J",style: const TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
                     color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
@@ -333,7 +333,7 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("N",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:const Center(child: Text("N",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
                     color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
@@ -362,7 +362,7 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("N",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:const Center(child: Text("N",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
                     color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
@@ -391,7 +391,7 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("N",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:const Center(child: Text("N",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
                     color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
@@ -420,7 +420,7 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("S",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:const Center(child: Text("S",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
                     color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
@@ -449,7 +449,7 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("S",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:const Center(child: Text("S",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
                     color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
@@ -478,7 +478,7 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("T",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:const Center(child: Text("T",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
                     color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
@@ -507,7 +507,7 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("U",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:const Center(child: Text("U",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
                     color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),

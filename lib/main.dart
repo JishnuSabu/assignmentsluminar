@@ -16,6 +16,13 @@ class _ContactBookState extends State {
       appBar: AppBar(
         title: const Text("Contacts"),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          // Add your onPressed code here!
+        },
+       child: Icon(Icons.add),
+        backgroundColor: Colors.blueAccent,
+      ),
       body: ListView(
         children: [
           Card(
@@ -47,9 +54,9 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:Center(child: Text("J",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
-                    color: Colors.grey,
+                    color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
                 ),
               ],
@@ -75,7 +82,7 @@ class _ContactBookState extends State {
                   width: 45,
                   child:Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
-                    color: Colors.grey,
+                    color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
                 ),
               ],
@@ -101,7 +108,7 @@ class _ContactBookState extends State {
                   width: 45,
                   child:Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
-                    color: Colors.grey,
+                    color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
                 ),
               ],
@@ -125,9 +132,9 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:Center(child: Text("V",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
-                    color: Colors.grey,
+                    color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
                 ),
               ],
@@ -153,7 +160,7 @@ class _ContactBookState extends State {
                   width: 45,
                   child:Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
-                    color: Colors.grey,
+                    color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
                 ),
               ],
@@ -182,7 +189,7 @@ class _ContactBookState extends State {
                     width: 45,
                     child:Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
                     decoration: BoxDecoration(
-                        color: Colors.grey,
+                        color: Colors.blue,
                         borderRadius:BorderRadius.circular(40),),
                 ),
               ],
@@ -212,7 +219,7 @@ class _ContactBookState extends State {
                   width: 45,
                   child:Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
-                    color: Colors.grey,
+                    color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
                 ),
               ],
@@ -239,9 +246,9 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:Center(child: Text("C",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
-                    color: Colors.grey,
+                    color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
                 ),
               ],
@@ -268,9 +275,9 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:Center(child: Text("F",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
-                    color: Colors.grey,
+                    color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
                 ),
               ],
@@ -297,9 +304,9 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:Center(child: Text("J",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
-                    color: Colors.grey,
+                    color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
                 ),
               ],
@@ -326,9 +333,9 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:Center(child: Text("N",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
-                    color: Colors.grey,
+                    color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
                 ),
               ],
@@ -355,9 +362,9 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:Center(child: Text("N",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
-                    color: Colors.grey,
+                    color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
                 ),
               ],
@@ -384,9 +391,9 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:Center(child: Text("N",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
-                    color: Colors.grey,
+                    color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
                 ),
               ],
@@ -413,9 +420,9 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:Center(child: Text("S",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
-                    color: Colors.grey,
+                    color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
                 ),
               ],
@@ -442,9 +449,9 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:Center(child: Text("S",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
-                    color: Colors.grey,
+                    color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
                 ),
               ],
@@ -471,9 +478,9 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:Center(child: Text("T",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
-                    color: Colors.grey,
+                    color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
                 ),
               ],
@@ -500,9 +507,9 @@ class _ContactBookState extends State {
                 Container(
                   height: 45,
                   width: 45,
-                  child:Center(child: Text("A",style: TextStyle(fontSize: 30,color: Colors.white),)),
+                  child:Center(child: Text("U",style: TextStyle(fontSize: 30,color: Colors.white),)),
                   decoration: BoxDecoration(
-                    color: Colors.grey,
+                    color: Colors.blue,
                     borderRadius:BorderRadius.circular(40),),
                 ),
               ],

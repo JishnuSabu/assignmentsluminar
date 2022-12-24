@@ -513,6 +513,7 @@ class _ContactBookState extends State {
                     borderRadius:BorderRadius.circular(40),),
                 ),
               ],
+
             ),
             trailing: Wrap(
               children: const [

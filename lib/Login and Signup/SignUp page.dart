@@ -31,9 +31,6 @@ class _SignupPageState extends State {
                     )),
               ),
             ),
-            const SizedBox(
-              height: 10,
-            ),
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: TextField(
@@ -61,7 +58,7 @@ class _SignupPageState extends State {
               padding: const EdgeInsets.all(10.0),
               child: ElevatedButton(
                 onPressed: () {},
-                child: const Text("Sign Up"),
+                child:const Text("Sign Up"),
                 style: ElevatedButton.styleFrom(
                   primary: Colors.black,
                   padding: const EdgeInsets.only(left: 70, right: 70),

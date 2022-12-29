@@ -92,22 +92,18 @@ class GridCard extends StatelessWidget {
     return Scaffold(
       body: GridView.builder(
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2,mainAxisExtent: 80,mainAxisSpacing: 10, crossAxisSpacing: 5),
+            crossAxisCount: 2,
+            mainAxisExtent: 80,
+            mainAxisSpacing: 20,
+            crossAxisSpacing: 5),
         itemBuilder: (context, index) {
-          return Container(
-            margin: EdgeInsets.all(
-              (4),
+          return Card(
+            elevation: 8,
+            color: colors[index],
+            margin: EdgeInsets.all(6),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(20),
             ),
-            height: 50,
-            decoration: BoxDecoration(boxShadow: [
-              BoxShadow(
-                color: Colors.grey.withOpacity(0.5),
-                spreadRadius: 5,
-                blurRadius: 7,
-              offset: Offset(0,3))
-            ],
-            borderRadius: BorderRadius.circular(20),
-            color: colors[index]),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [

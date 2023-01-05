@@ -123,7 +123,7 @@ class BottomClass extends StatelessWidget {
           child: ListTile(
             leading: Icon(icons,color: Colors.blueGrey,size: 28,),
             title: Text(names),
-            trailing: const Icon(Icons.arrow_forward_ios,color: Colors.blueGrey,),
+            trailing: const Icon(Icons.arrow_forward_ios,color: Colors.blueGrey),
           ),
         )
     );

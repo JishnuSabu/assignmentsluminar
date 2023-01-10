@@ -18,6 +18,7 @@ class FarmFresh extends StatelessWidget {
           shrinkWrap: true,
           slivers: [
             SliverAppBar(
+              backgroundColor: Colors.green,
               title: const Text("FARMERS FRESH ZONE"),
               floating: true,
               pinned: true,
@@ -31,6 +32,7 @@ class FarmFresh extends StatelessWidget {
                 )
               ],
               bottom: AppBar(
+                backgroundColor: Colors.green,
                 elevation: 0,
                 title: Container(
                   height: 37,

@@ -36,6 +36,7 @@ dependencies:
   eva_icons_flutter: ^3.1.0
   flutter_svg:
   lottie: ^2.1.0
+  expansion_tile_card: ^2.0.0
 
 
 

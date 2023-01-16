@@ -96,16 +96,7 @@ class _ExpWithLottieState extends State<ExpWithLottie> {
                                 children: [
                                   TextButton(
                                     onPressed: () {
-                                      final valid =
                                           Card1.currentState!.expand();
-                                      if (true) {
-                                        Navigator.push(
-                                            context,
-                                            MaterialPageRoute(
-                                                builder: (context) =>
-                                                    FarmFresh()));
-                                      } else
-                                        return null;
                                     },
                                     child: Column(
                                       children: const <Widget>[

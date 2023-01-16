@@ -176,6 +176,7 @@ class _HotelRoomState extends State<HotelRoom> {
                 style: TextStyle(fontSize: 18),
                 textAlign: TextAlign.justify,
               ),
+
             ],
           ),
         )

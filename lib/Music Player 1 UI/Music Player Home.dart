@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(home: MusicHome()));
+  runApp(MaterialApp(home: MusicHome(),
+  debugShowCheckedModeBanner: false,));
 }
 
 class MusicHome extends StatefulWidget {
@@ -13,6 +14,31 @@ class _MusicHomeState extends State<MusicHome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      bottomNavigationBar: BottomNavigationBar(
+        items: const [
+          BottomNavigationBarItem(
+            backgroundColor: Colors.black,
+              icon: Icon(
+                Icons.home,
+              ),
+              label: 'Home'),
+          BottomNavigationBarItem(
+              icon: Icon(
+                Icons.search,
+              ),
+              label: ''),
+          BottomNavigationBarItem(
+              icon: Icon(
+                Icons.play_lesson,
+              ),
+              label: ''),
+          BottomNavigationBarItem(
+              icon: Icon(
+                Icons.more_horiz,
+              ),
+              label: '')
+        ],
+      ),
       backgroundColor: Colors.black,
       appBar: AppBar(
         centerTitle: true,

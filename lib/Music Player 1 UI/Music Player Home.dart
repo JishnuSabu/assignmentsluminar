@@ -29,7 +29,7 @@ class _MusicHomeState extends State<MusicHome> {
               label: ''),
           BottomNavigationBarItem(
               icon: Icon(
-                Icons.play_lesson,
+                Icons.book_rounded,
               ),
               label: ''),
           BottomNavigationBarItem(

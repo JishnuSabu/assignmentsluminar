@@ -15,9 +15,15 @@ class _MusicHomeState extends State<MusicHome> {
   Widget build(BuildContext context) {
     return Scaffold(
       bottomNavigationBar: BottomNavigationBar(
+        selectedItemColor: Colors.pinkAccent,
+        unselectedItemColor: Colors.white,
+        backgroundColor: Colors.grey[900],
+        showSelectedLabels: true,
+        showUnselectedLabels: false,
+        type: BottomNavigationBarType.fixed,
+        currentIndex: 0,
         items: const [
           BottomNavigationBarItem(
-            backgroundColor: Colors.black,
               icon: Icon(
                 Icons.home,
               ),
@@ -26,17 +32,17 @@ class _MusicHomeState extends State<MusicHome> {
               icon: Icon(
                 Icons.search,
               ),
-              label: ''),
+              label: 'Search'),
           BottomNavigationBarItem(
               icon: Icon(
                 Icons.book_rounded,
               ),
-              label: ''),
+              label: 'Playlist'),
           BottomNavigationBarItem(
               icon: Icon(
                 Icons.more_horiz,
               ),
-              label: '')
+              label: 'more')
         ],
       ),
       backgroundColor: Colors.black,

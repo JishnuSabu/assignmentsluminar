@@ -18,31 +18,34 @@ class _MusicHome2State extends State<MusicHome2> {
     return Scaffold(
       backgroundColor: Colors.grey[900],
       bottomNavigationBar: BottomNavigationBar(
+        selectedItemColor: Colors.pinkAccent,
+        unselectedItemColor: Colors.white,
+        backgroundColor: Colors.grey[900],
+        showSelectedLabels: true,
+        showUnselectedLabels: false,
+        type: BottomNavigationBarType.fixed,
+        currentIndex: 2,
         items: const [
           BottomNavigationBarItem(
-              backgroundColor: Colors.black,
               icon: Icon(
                 Icons.home,
-                color: Colors.pinkAccent,
               ),
-              label: ''),
+              label: 'Home'),
           BottomNavigationBarItem(
               icon: Icon(
                 Icons.search,
-                color: Colors.pinkAccent,
               ),
-              label: ''),
+              label: 'Search'),
           BottomNavigationBarItem(
               icon: Icon(
                 Icons.book_rounded,
               ),
-              label: ''),
+              label: 'Playlist'),
           BottomNavigationBarItem(
               icon: Icon(
                 Icons.more_horiz,
-                color: Colors.pinkAccent,
               ),
-              label: '')
+              label: 'more')
         ],
       ),
       appBar: AppBar(

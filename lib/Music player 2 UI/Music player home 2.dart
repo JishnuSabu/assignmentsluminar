@@ -60,20 +60,24 @@ class _MusicHome2State extends State<MusicHome2> {
       body: ListView(children: [
         Column(children: [
           Container(
-            height: 55,
+            height: 50,
             width: 389,
             decoration: BoxDecoration(
+              border: Border.all(width: 0.5,color: Colors.white) ,
                 color: Colors.grey[800],
                 borderRadius: BorderRadius.circular(28)),
-            child: Padding(
-              padding: const EdgeInsets.only(
-                left: 8.0,
+            child: const Padding(
+              padding: EdgeInsets.only(
+                left: 15.0,
+                top: 4,
                 right: 8,
               ),
-              child: const TextField(
+              child: TextField(
                 decoration: InputDecoration(
+                  border: InputBorder.none,
                     contentPadding: EdgeInsets.all(8),
                     hintText: "Search...",
+                    hintStyle: TextStyle(fontSize: 18.0, color: Colors.pinkAccent),
                     suffixIcon: Icon(
                       Icons.search,
                       color: Colors.pink,

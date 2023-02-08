@@ -195,7 +195,9 @@ class _YoutubeHomeState extends State<YoutubeHome> {
             ],
           ),
           CustomListView(),
-          const SizedBox(height: 18,),
+          const SizedBox(
+            height: 18,
+          ),
           Container(
             child: Stack(
               children: [
@@ -211,15 +213,15 @@ class _YoutubeHomeState extends State<YoutubeHome> {
                           borderRadius: BorderRadius.circular(3)),
                       child: const Center(
                           child: Text(
-                            "39.28",
-                            style: TextStyle(color: Colors.white),
-                          )),
+                        "39.28",
+                        style: TextStyle(color: Colors.white),
+                      )),
                     )),
                 Divider(
                   thickness: 7,
                   color: Colors.grey[400],
                   height: 3,
-                )
+                ),
               ],
             ),
           ),
@@ -310,8 +312,11 @@ class CustomListView extends StatelessWidget {
                           fontWeight: FontWeight.w700)),
                 ),
                 const Positioned(
-                  right:3,
-                    child: Icon(Icons.more_vert,color: Colors.white,))
+                    right: 3,
+                    child: Icon(
+                      Icons.more_vert,
+                      color: Colors.white,
+                    ))
               ],
             ),
           );

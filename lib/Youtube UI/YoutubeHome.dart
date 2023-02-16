@@ -6,7 +6,6 @@ void main() {
     debugShowCheckedModeBanner: false,
   ));
 }
-
 class YoutubeHome extends StatefulWidget {
   @override
   State<YoutubeHome> createState() => _YoutubeHomeState();

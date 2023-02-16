@@ -41,6 +41,7 @@ dependencies:
   smooth_star_rating: ^1.1.1
   typeweight: ^2.0.1
   flutter_font_picker: ^1.1.2
+  shared_preferences: ^2.0.17
 
 
 

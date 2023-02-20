@@ -12,7 +12,6 @@ class HotelHomePage extends StatefulWidget {
   State<HotelHomePage> createState() => _HotelHomePageState();
 }
 
-
 class _HotelHomePageState extends State<HotelHomePage> {
   @override
   Widget build(BuildContext context) {

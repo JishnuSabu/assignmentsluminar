@@ -43,6 +43,11 @@ dependencies:
   flutter_font_picker: ^1.1.2
   shared_preferences: ^2.0.17
   sqflite: ^2.2.4+1
+  hive_flutter:
+  hive:
+  get:
+  email_validator:
+  rive:
 
 
 
@@ -53,6 +58,9 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  build_runner:
+  hive_generator:
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -78,6 +86,7 @@ flutter:
     - assets/icons/
     - assets/SVG/
     - assets/Lottie/
+    - assets/rive/
 
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg

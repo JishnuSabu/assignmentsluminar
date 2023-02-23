@@ -17,7 +17,7 @@ class Signup_Form extends StatelessWidget {
       var id = await SQLHelper.AddNewUser(name, email, password);
       if (id != null) {
         Navigator.pushReplacement(
-            context, MaterialPageRoute(builder: (context) => Home(data: null)));
+            context, MaterialPageRoute(builder: (context) => Home(data: name)));
       } else {
         Navigator.pushReplacement(
             context, MaterialPageRoute(builder: (context) => Login_Signup()));

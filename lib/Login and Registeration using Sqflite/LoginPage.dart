@@ -21,7 +21,7 @@ class _Login_FormState extends State<Login_Form> {
   final TextEditingController conpass = TextEditingController();
 
   void logincheck(String email, String password) async {
-    if (email == 'admin@gmail.com' && password == '123456') {
+    if (email == 'jishnu@gmail.com' && password == '123456') {
       Navigator.pushReplacement(
           context, MaterialPageRoute(builder: (context) => AdminHome()));
     } else {
@@ -128,7 +128,7 @@ class _Login_FormState extends State<Login_Form> {
                     logincheck(conemail.text, conpass.text);
                   } else {}
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Home(data: null,)));
+                      MaterialPageRoute(builder: (context) => Home(data:null)));
                 },
                 child: Text("LOGIN"),
               ),

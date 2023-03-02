@@ -1,5 +1,5 @@
 import 'package:hive_flutter/hive_flutter.dart';
-
+part 'user model.g.dart';
 
 @HiveType(typeId:1)
 

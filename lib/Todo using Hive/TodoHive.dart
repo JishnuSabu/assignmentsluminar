@@ -9,7 +9,6 @@ void main() async {
     home: HiveTodo(),
   ));
 }
-
 class HiveTodo extends StatefulWidget {
   @override
   State<StatefulWidget> createState() => HiveTodoState();

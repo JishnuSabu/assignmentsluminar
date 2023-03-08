@@ -75,6 +75,7 @@
     <!-- Permissions options for the `access notification policy` group -->
     <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
 
+
     <application
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"

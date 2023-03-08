@@ -48,6 +48,9 @@ dependencies:
   get:
   email_validator:
   rive:
+  permission_handler:
+  file_picker:
+  provider:
 
 
 

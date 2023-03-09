@@ -2,7 +2,6 @@ import 'package:assignmentsluminar/Login%20and%20registeration%20using%20firebas
 import 'package:assignmentsluminar/Login%20and%20registeration%20using%20firebase/main.dart';
 import 'package:flutter/material.dart';
 
-
 class Signup extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

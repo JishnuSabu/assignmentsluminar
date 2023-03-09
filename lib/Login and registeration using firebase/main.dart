@@ -2,14 +2,13 @@ import 'package:assignmentsluminar/Login%20and%20registeration%20using%20firebas
 import 'package:assignmentsluminar/Login%20and%20registeration%20using%20firebase/Home.dart';
 import 'package:assignmentsluminar/Login%20and%20registeration%20using%20firebase/signup.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   runApp(MaterialApp(home: MyAppLogin()));
 }
-
 
 class MyAppLogin extends StatelessWidget {
   @override

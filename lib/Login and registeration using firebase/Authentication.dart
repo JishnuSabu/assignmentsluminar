@@ -27,8 +27,7 @@ class AuthenticationHelper {
       return e.message;
     }
   }
-
-
+  
   //SIGN OUT METHOD
   Future<void> signOut() async {
     await _auth.signOut();
